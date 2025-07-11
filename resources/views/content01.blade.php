@@ -18,10 +18,10 @@
         <div class="box">
             <img src="images/g6-01.png" alt="">
             <h1><span>Rank de Educadores </span><br><span>engajando</span></h1>
-            <p>Acreditamos em heróis da próxima geração, e a cada avanço o reconhecimento acontece em sua comunidade, igreja e escola. Unindo uma comunidade criando um Ecosistema.</p>
+            <p>Acreditamos em heróis da próxima geração, e a cada avanço o reconhecimento acontece em sua comunidade, igreja e escola. Unindo uma comunidade criando um Ecossistema.</p>
         </div>
         <div class="box">
-            <h1>Jogos com Perguntas e <br><span>Quizzes</span>, Testes</h1>
+            <h1>Jogos com Perguntas, Testes e <br><span>Quiz</span></h1>
             <p>Nossos jogos com cartas e Quiz são criados para estimular os alunos a tomarem atitudes baseados em situações reais, baseados nos temas e princípios.</p>
             <img src="images/g6-02.png" alt="">
             <img src="images/g6-down.png" alt="">

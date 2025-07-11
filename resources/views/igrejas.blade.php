@@ -1,10 +1,12 @@
 @extends('layouts.main')
 
+@section('title', 'Igrejas - BiblioXP')
+
 @section('content')
 
 <div class="section01">
     <div class="box">
-        <h1>Com <b>metodologia</b> utilizando <b>experiências físicas e gamificadas</b>, ajudamos líderes do <b>ministério KIDS</b> a criarem <b>planos de aulas</b> e atividades, que <b>conectam com a nova geração.</b></h1>
+        <h1>Com <img src="images/gamee.png" alt="">, <b>a metodologia</b> utilizando <b>experiências físicas e gamificadas</b>, ajudamos líderes do <b>ministério KIDS</b> a criarem <b>planos de aulas</b> e atividades, que <b>conectam com a nova geração.</b></h1>
     </div>
     <div class="box">
         <button class="btn register-btn">comece grátis</button>
@@ -27,10 +29,10 @@
 
 <div class="section03">
     <div class="box">
-        <h1>Faça parte de uma comunidade que entende que uma geração espera a manifestação da palavra em nós.</h1>
+        <h1>Faça parte de educadores e líderes que entenderão que a transformação da mente dos pequenos mudará a vida deles, saúde emocional aliada a histórias e princípios bíblicos.</h1>
     </div>
     <div class="box">
-        <h1>Romanos 8</h1><h2>9 Pois toda a criação aguarda com grande expectativa o dia em que os filhos de Deus serão revelados.</h2>
+        <h1>Romanos 12:2 </h1><h2>Não vivam como vivem as pessoas deste mundo, mas deixem que Deus os transforme por meio de uma completa mudança da mente de vocês. Assim vocês conhecerão a vontade de Deus, isto é, aquilo que é bom, perfeito e agradável a ele.</h2>
     </div>
     <div class="box">
         <h1>Engaje seu time de professores, com pontuações e prêmios!</h1>

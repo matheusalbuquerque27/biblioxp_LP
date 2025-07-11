@@ -1,10 +1,12 @@
 @extends('layouts.main')
 
+@section('title', 'Escolas - BiblioXP')
+
 @section('content')
 
 <div class="section01">
     <div class="box">
-        <h1>Com nossa metodologia <img src="images/gamee.png" alt="">, educadores Conectarem com a próxima geração, com a cultura pop e dos games, impulsionando skills do futuro como as <b>habilidades socioemocionais.Cada dia da semana um devocional guiado.</b></h1>
+        <h1><img src="images/gamee.png" alt=""> conecta a próxima geração, com a cultura pop e dos games, impulsionando skills do futuro como as <b>habilidades socioemocionais com base na BNCC</b>.<br>Devocionais e aulas temáticas para cada dia da semana, com contextos atuais. </h1>
         
     </div>
     <div class="box">
@@ -28,10 +30,10 @@
 
 <div class="section03">
     <div class="box">
-        <h1>Faça parte de uma comunidade que entende que uma geração espera a manifestação da palavra em nós.</h1>
+        <h1 class="h1Escolas">Sua escola pode tratar diversos temas culturais e socioemocionais com princípios cristãos, isso mudará o convívio dos alunos e crescerão nos estudos.</h1>
     </div>
     <div class="box">
-        <h1>Romanos 8</h1><h2>9 Pois toda a criação aguarda com grande expectativa o dia em que os filhos de Deus serão revelados.</h2>
+        <h1 class="h1Escolas02">Romanos 12:2</h1><h2 class="h2Escolas">Não vivam como vivem as pessoas deste mundo, mas deixem que Deus os transforme por meio de uma completa mudança da mente de vocês. Assim vocês conhecerão a vontade de Deus, isto é, aquilo que é bom, perfeito e agradável a ele.</h2>
     </div>
     <div class="box">
         <h1>Engaje seu time de professores, com pontuações e prêmios!</h1>
@@ -48,6 +50,35 @@
             <img src="images/g6-down.png" alt="">
         </div>
     </div>
+
+    <div class="container">
+        <div class="slip">
+            <div class="box"><img src="images/line.png" alt=""><h3>TESTEMUNHOS</h3></div>
+            <h1>O que disseram nas escolas</h1>
+        </div>
+        <div class="slip">
+            <div class="box">
+                <div class="card">
+                    <img src="images/mask.png" alt="">
+
+                    <div class="btn-2 btn-2-main" id="insta-link">
+                        <p>deixe seu comentário</p>
+                        <span class="btn-2"><img src="images/arrow.png" alt=""></span>
+                    </div>
+    
+                    <img src="images/comment01.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="images/footerComment.png" alt="">
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/mask2.png" alt="">
+                <img src="images/comment02.png" alt="">
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <img src="images/escolas_pic.png" alt="">
     </div>

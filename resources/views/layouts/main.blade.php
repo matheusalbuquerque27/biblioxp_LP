@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        
+        <link rel="shortcut icon" href="images/bxp_logo.ico" type="image/x-icon">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,20 +12,39 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
         <!-- Static CSS -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/pages.css">
+        <link rel="stylesheet" href="css/styles02.css">
+        <link rel="stylesheet" href="css/pages03.css">
 
-        <title>BiblioXP</title>
+        <!--SEO Config-->
+        <title> @yield('title') </title>
+        <meta name="description" content="Plataforma com uma gama de roteiros para aulas inesquecíveis para sua igreja, escola e família. 
+        Biblioxp é uma metodologia utilizando experiências físicas e gamificadas com temas culturais e socioemocionais">
+        <meta name="keywords" content="escola dominical infantil, biblioxp, gamificação,
+        professora ebd infantil, professora kids, coordenadora pedagógica, atividade escolar">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="BiblioXP - Te ajudando a criar aulas incríveis">
+        <meta property="og:description" content="Uma metodologia que utiliza experiências físicas e gamificadas com temas culturais e socioemocionais">
+        <meta property="og:image" content="images/logo.png">
 
     </head>
     <body>
         <header>
-            <div class="msg">
-                @if (session('msg'))  
-                    {{ session('msg') }}
-                @endif
+            <div class="menu-mobile">
+                <ul class="navbar">
+                    <a class="a-mob" href="/igrejas"><li>Igrejas</li></a>
+                    <a class="a-mob" href="/escolas"><li>Escolas</li></a>
+                    <a class="a-mob" href="/familias"><li>Famílias</li></a>
+                    <a class="a-mob" href="/sobre"><li>Nós</li></a>
+                </ul>
             </div>
-            <nav>
+    
+            @if (session('msg'))
+                <div class="msg">
+                    {{ session('msg') }}
+                </div>
+            @endif
+
+            <nav class="header-desktop">
                 <div class="logo">
                     <a href="/"><img src="images/logo.png" alt=""></a>
                 </div>
@@ -58,10 +77,10 @@
                     </div>
                 </div>
                 <div class="box">
-                    <p>Criamos uma metodologia para Ajudar educadores e Pais Conectarem com a próxima geração, com aulas inesquecíveis.</p>
+                    <p>Criamos uma metodologia para Ajudar educadores e Pais a se Conectarem com a próxima geração, com aulas inesquecíveis.</p>
                 </div>
                 <div class="box">
-                    <nav>
+                    <nav class="card">
                         <ul class="navbar">
                             <a href="/igrejas"><li>Igrejas</li></a>
                             <a href="/escolas"><li>Escolas</li></a>
@@ -69,7 +88,27 @@
                             <a href="/sobre"><li>Nós</li></a>
                         </ul>
                     </nav>
+                    <div class="card-info">
+                        <div class="title">
+                            <h2>Contatos</h2>
+                        </div>
+                        <div class="item">
+                            <img src="images/info1.png" alt="">
+                            <p>fale@biblioxp.com</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/info2.png" alt="">
+                            <p>+55 11 98301-5096</p>
+                        </div>
+                        <div class="item">
+                            <img src="images/info3.png" alt="">
+                            <p>Alameda Rio Negro 503, Sala 2020, Alphaville, Barueri/SP <br>CEP 06454-000</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div class="slip">
+                <p>2024 - Todos os direitos reservados</p>
             </div>
             <div class="clear"></div>
         </footer>

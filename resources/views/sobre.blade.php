@@ -1,16 +1,18 @@
 @extends('layouts.main')
 
+@section('title', 'Sobre - BiblioXP')
+
 @section('content')
     
 <div class="section01">
     <div class="container">
         <div class="box">
-            <h1>Somos educadores apaixonados por ensinamentos que mudam uma geração, utilizando cultura e gamificação com princípios e virtudes cristãs.</h1>
+            <h1>Somos <b>educadores</b> apaixonados por ensinamentos que <b>mudam uma geração</b>, utilizando cultura e gamificação com princípios e <b>virtudes cristãs</b>.</h1>
         </div>
-        <div class="box">
+        <div class="box h1Sobre">
             <h1>Adoramos criar experiências que ensinam e se tornam aulas inesquecíveis. </h1>
         </div>
-        <div class="box">
+        <div class="box h1Sobre">
             <h1>Lançamos uma plataforma que une biblioteca de temas com base socioemocinais e culturais.</h1>
         </div>
     </div>
@@ -27,6 +29,10 @@
         <h1>Deuteronômio 6 </h1>
         <h2>7 as ensinarás a teus filhos e delas falarás assentado em tua casa, e andando pelo caminho, e deitando-te e levantando-te.</h2>
     </div>
+</div>
+<div class="team">
+    <img src="images/m01.png" alt="">
+    <img src="images/m02.png" alt="">
 </div>
 <div class="sobre">
     <div class="card">

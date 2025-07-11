@@ -13,7 +13,7 @@
         </div>
         <div class="box">
             <p>Metodologia utilizando experiências físicas e gamificadas com temas culturais e socioemocionais!</p>
-            <span><img src="images/play.png" alt=""><span>Veja como funciona!</span></span>
+            <span><a href="https://youtu.be/BRAkmw0Gy6k" target="_blank"><img src="images/play.png" alt=""></a><span>Veja como funciona!</span></span>
         </div>
     </div>
     <div class="grid-2">
@@ -49,7 +49,7 @@
             <div class="card">
                 <img src="images/sec02-01.png" alt="">
                 <h1>G.guiar</h1>
-                <p>Escolha da necessidade e tema no contexto. Guie e prepare os alunnos, Veja temas e Sugestões baseadas em filtros (idade, contexto, cultural, habilidades)</p>
+                <p>Escolha da necessidade e tema no contexto. Guie e prepare os alunos, Veja temas e Sugestões baseadas em filtros (idade, contexto, cultural, habilidades)</p>
             </div>
             <div class="card">
                 <img src="images/sec02-02.png" alt="">
@@ -59,7 +59,7 @@
             <div class="card">
                 <img src="images/sec02-03.png" alt="">
                 <h1>M.meditar</h1>
-                <p>Criar momento de reflexão, meditando na mensagem que o tema aborda. Conta com recursos de perguntas e playslist musical.</p>
+                <p>Criar momento de reflexão, meditando na mensagem que o tema aborda. Conta com recursos de perguntas e playlist musical.</p>
             </div>
             <div class="card">
                 <img src="images/sec02-04.png" alt="">
@@ -72,7 +72,7 @@
                 <p>A missão aqui é engajar o aluno para praticar  em casa com a  família. Ferramentas e sugestões de recompensa.</p>
             </div>
         </div>
-    </div>{{-- box --}}
+    </div>
     <div class="box">
         <button class="btn register-btn">Comece grátis</button>
     </div>
@@ -80,7 +80,7 @@
 <section class="third_panel">
     <div class="box">
         <h1><span>Nossa</span><span>Visão</span></h1>
-        <p>Através da nossa metodologia exclusiva, com temas culturais aliados a virtudes cristãs, querems conectar educadores e famílias a nova geração.</p>
+        <p>Através da nossa metodologia exclusiva, com temas culturais aliados a virtudes cristãs, queremos conectar educadores e famílias a nova geração.</p>
     </div>
     <div class="box">
         <div class="card">
@@ -111,8 +111,8 @@
         <h1>O que educadores dizem</h1>
         <div class="box">
             <p>As aulas são sempre dinâmicas quando usado a metodologia G.A.M.E.E.</p>
-            <p>O Motivo de tudo isso é conexão que acontece com as crianças, a temática que conecta com eles.</p>
-            <p>Eles se soltam e começam a expressar, sentimentos,dúvidas. E ai que entra a visão e Bíblia!</p>
+            <p>O Motivo de tudo isso é a conexão que acontece com as crianças, a temática que conecta com eles.</p>
+            <p>Eles se soltam e começam a expressar, sentimentos, dúvidas. É aí que entra a visão e Bíblia!</p>
         </div>
         <div class="btn-2" id="insta-link">
             <p>deixe seu comentário</p>
